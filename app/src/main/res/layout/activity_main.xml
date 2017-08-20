@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.srjlove.animation.MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <Button
+                    android:id="@+id/explodeJava"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Explode-java" />
+
+                <Button
+                    android:id="@+id/explodeXml"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Explode- Xml" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <Button
+                    android:id="@+id/slideJava"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Slide - java" />
+
+                <Button
+                    android:id="@+id/slideXml"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Slide - xml" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <Button
+                    android:id="@+id/fadeJava"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="fade - java" />
+
+                <Button
+                    android:id="@+id/fadeXml"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="fade - xml" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sharedLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/bear"
+                android:contentDescription="@string/img"/>
+
+                <TextView
+                    android:id="@+id/txtsharedElemet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Shared Elements"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/rwb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="16dp"
+                android:text="Ripple With border"
+                android:textColor="@android:color/black"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/rwtb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="16dp"
+                android:text="Ripple Without border"
+                android:textColor="@android:color/black"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/crwb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Custom Ripple With border"
+                android:textColor="@android:color/black"
+                android:background="@drawable/ripplw_with_border"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/crwtb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Custom Ripple Without border"
+                android:textColor="@android:color/black"
+                android:background="@drawable/ripplw_without_border"
+                android:textSize="23sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

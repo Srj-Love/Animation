@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MaterialTheme" parent="AppTheme">
+        <!--customize only for lollipop and above features-->
+
+        <item name="android:colorControlHighlight">#3750de</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+</resources>

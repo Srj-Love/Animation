@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Animation</string>
+    <string name="img">img</string>
+    <string name="exit">Exit</string>
+    <string name="someText">TextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextView TextViewTextViewTextViewTextViewTextViewTextViewTextView</string>
+    <string name="anima">Animations</string>
+    <string name="shared_elements">sharedElements</string>
+    <string name="bear">bear</string>
+    <string name="se">Shared Element Transaction</string>
+</resources>

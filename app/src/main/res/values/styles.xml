@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="MaterialTheme" parent="AppTheme">
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- for pre LolliPop and above LolyPOP -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlActivated">#e7a75e</item>
+        <item name="colorButtonNormal">#e0ea86</item>
+        <item name="colorControlHighlight">#e4ff4c</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Light">
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorHighlight">@android:color/white</item>
+
+    </style>
+
+</resources>

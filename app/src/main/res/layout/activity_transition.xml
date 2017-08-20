@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.srjlove.animation.TransitionActivity">
+
+    <include
+        android:id="@+id/tToolbar"
+        layout="@layout/toolbar"/>
+
+    <ImageView
+        android:id="@+id/bear"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/bear"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tToolbar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/animName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginTop="31dp"
+        android:text="@string/anima"
+        android:layout_below="@+id/bear"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/someText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/someText"
+        android:layout_above="@+id/exit"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/exit"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
